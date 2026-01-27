@@ -134,7 +134,7 @@ public class CodeLoading
   {
     if (!Directory.Exists(Yaml.BaseDirectory))
       Directory.CreateDirectory(Yaml.BaseDirectory);
-    Yaml.SetupWatcher(Pattern, FromFile);
+    Yaml.SetupWatcher(Pattern, FromFile, false);
   }
 
 

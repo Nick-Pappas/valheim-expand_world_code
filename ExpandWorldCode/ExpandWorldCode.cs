@@ -4,13 +4,14 @@ using Data;
 using HarmonyLib;
 using Service;
 namespace ExpandWorld.Code;
+
 [BepInPlugin(GUID, NAME, VERSION)]
-[BepInDependency("expand_world_prefabs", "1.34")]
+[BepInDependency("expand_world_prefabs", "1.49")]
 public class EWP : BaseUnityPlugin
 {
   public const string GUID = "expand_world_code";
   public const string NAME = "Expand World Code";
-  public const string VERSION = "1.1";
+  public const string VERSION = "1.2";
 #nullable disable
   public static Harmony Harmony;
 #nullable enable
